@@ -1,26 +1,30 @@
 from utils.dataset import DataSet
 from utils.generate_test_splits import split
+from utils.score import report_score
 
-d = DataSet()
-data_splits = split(d)
+dataset = DataSet()
+data_splits = split(dataset)
 
-training = data_splits['training']
-dev = data_splits['dev']
-test = data_splits['test']
-
-for stance in training:
-    print(stance)
-    print(d.articles[stance['Body ID']])
-    print("")
+training_data = data_splits['training']
+dev_data = data_splits['dev']
+test_data = data_splits['test']
 
 
-for stance in dev:
-    print(stance)
-    print(d.articles[stance['Body ID']])
-    print("")
+
+if __name__ == '__main__':
+    for stance in training_data:
+        print(stance)
+        print(dataset.articles[stance['Body ID']])
+        print("")
 
 
-for stance in test:
-    print(stance)
-    print(d.articles[stance['Body ID']])
-    print("")
+    for stance in dev_data:
+        print(stance)
+        print(dataset.articles[stance['Body ID']])
+        print("")
+
+
+    for stance in test_data:
+        print(stance)
+        print(dataset.articles[stance['Body ID']])
+        print("")
