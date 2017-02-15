@@ -12,7 +12,7 @@ You will have to use the development data to evaluate your approach's performanc
 We provide our own scorer and dataset reader (small adaptations from the original release by fakenewschallenge) in the ``utils/`` folder/package
 
 ## Questions/Issues
-Please post all questions to the module's Google group.
+Please post all questions to the [module's Google group](https://groups.google.com/a/sheffield.ac.uk/forum/#!forum/com4513-6513-2017-group).
 
 
 ## Getting Started
