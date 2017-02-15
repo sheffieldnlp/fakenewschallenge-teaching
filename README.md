@@ -69,7 +69,7 @@ The ``report_score`` function in ``utils/score.py`` will be used to assess the p
 
     report_score(actual, predicted)
 
-This will print a confusion matrix and a final score your classifier. We provide the scores for very simple perceptron based classifier which you should be able to beat.
+This will print a confusion matrix and a final score your classifier. We provide the scores for very simple perceptron based classifier which you should be able to match and eventually beat!
 
 |           	| agree 	| disagree 	| discuss 	| unrelated 	|
 |-----------	|-------	|----------	|---------	|-----------	|
