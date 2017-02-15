@@ -9,7 +9,7 @@ We supplement the FNC-1 dataset by providing training, development and test spli
 
 You will have to use the development data to evaluate your approach's performance and suitability during development. The articles in this dataset are disjoint from (i.e. do not appear in) the training dataset. The test dataset will not be released until week 10.
 
-We provide our own scorer and dataset reader (small adaptations from the original release by fakenewschallenge) in the ``utils/`` folder/package
+We provide our own scorer and dataset reader (small adaptations from the original release by fakenewschallenge) in the ``utils/`` folder/package. A visual explanation of the scorer is available [here](https://docs.google.com/a/sheffield.ac.uk/spreadsheets/d/1ADOwjhlE-KCPyGvy2me7njO6IwM8RQDc4j1_iMOTFMc/edit?usp=sharing).
 
 ## Questions/Issues
 Please post all questions to the [module's Google group](https://groups.google.com/a/sheffield.ac.uk/forum/#!forum/com4513-6513-2017-group).
