@@ -34,10 +34,9 @@ The dataset class reads the FNC-1 dataset and loads the stances and article bodi
 
     dataset = DataSet()
 
-You can access these through the ``.stances`` and ``.articles`` variables
+You can access the articles through the ``.articles`` variables
 
-    print("Total stances: " + str(len(dataset.stances)))
-    print("Total bodies: " + str(len(dataset.articles)))
+    print("Total number of article bodies: " + str(len(dataset.articles)))
 
 * ``.articles`` is a dictionary of articles, indexed by the body id. For example, the text from the 144th article can be printed with the following command:
    ``print(dataset.articles[144])``
