@@ -14,11 +14,14 @@ We provide our own scorer and dataset reader (small adaptations from the origina
 ## Questions/Issues
 Please post all questions to the [module's Google group](https://groups.google.com/a/sheffield.ac.uk/forum/#!forum/com4513-6513-2017-group).
 
-
 ## Getting Started
-The FNC Dataset is included as a submodule.
+First. **You should have installed git if you do not already have it**. Git can be installed on the university computers from the Software Centre or from the git website/your package manager if you use your own laptop. 
 
-You will first have to download the fnc-1 dataset by running the following commands. This places the fnc-1 dataset into the folder `fnc-1/`
+To download the data, you should first clone the clone repository. This downloads the library files. But does not download the data.
+
+    git clone https://github.com/sheffieldnlp/fakenewschallenge-teaching
+
+The FNC dataset is inlcuded as a submodule and can be FNC Dataset is included as a submodule. You must download the fnc-1 dataset by running the following commands. This places the fnc-1 dataset into the folder `fnc-1/`
 
     git submodule init
     git submodule update
