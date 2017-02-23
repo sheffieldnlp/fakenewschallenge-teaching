@@ -23,7 +23,7 @@ if __name__ == '__main__':
         print(dataset.articles[stance['Body ID']])
         print("")
 
-    #Training data will be provided in week 10
+    #Test data will be provided in week 10
     for stance in test_data:
         print(stance)
         print(dataset.articles[stance['Body ID']])
