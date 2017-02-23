@@ -17,7 +17,7 @@ Please post all questions to the [module's Google group](https://groups.google.c
 ## Getting Started
 First. **You should have installed git if you do not already have it**. Git can be installed on the university computers from the Software Centre or from the git website/your package manager if you use your own laptop. 
 
-To download the data, you should first clone the clone repository from the git bash prompt. This downloads the library files. But does not download the data.
+To download the data, you should first clone the repository from the git bash prompt. This downloads the library files. But does not download the data.
 
     git clone https://github.com/sheffieldnlp/fakenewschallenge-teaching
 
