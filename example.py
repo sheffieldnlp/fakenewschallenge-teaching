@@ -29,9 +29,10 @@ if __name__ == '__main__':
         print(dataset.articles[stance['Body ID']])
         print("")
             
-    #Example scorer
-    predicted = ['unrelated','discuss',...] #the labels you predict on the dev/test data
-    actual = [stance['Stance'] for stance in dev_data]
-
-    assert len(predicted)==len(actual), "Number of predictions should match the number of dev data"
-    report_score(actual, predicted)
+    #Example scorer - THIS WONT RUN UNTIL YOU HAVE MADE YOUR PREDICTIONS
+    #predicted = ['unrelated','discuss',...] #these will come from labels you predict on the dev/test data
+    #actual = [stance['Stance'] for stance in dev_data]
+    
+    #THIS WILL THROW AN ERROR IF THE NUMBER OF SAMPLES IN THE PREDICTED IS DIFFERENT FROM THE NUMBER OF SAMPLES IN THE ACTUAL
+    #assert len(predicted)==len(actual), "Number of predictions should match the number of dev data"
+    #report_score(actual, predicted)
