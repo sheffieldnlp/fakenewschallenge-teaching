@@ -28,3 +28,10 @@ if __name__ == '__main__':
         print(stance)
         print(dataset.articles[stance['Body ID']])
         print("")
+            
+    #Example scorer
+    predicted = ['unrelated','discuss',...] #the labels you predict on the dev/test data
+    actual = [stance['Stance'] for stance in dev_data]
+
+    assert len(predicted)==len(actual), "Number of predictions should match the number of dev data"
+    report_score(actual, predicted)
